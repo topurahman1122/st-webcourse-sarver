@@ -3,19 +3,17 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
 
-app.use(cors());
 
+const catedories = require('./data/category.json');
 
-const courses = require('./data/courses.json')
 
 app.get('/', (req, res) => {
-    res.send('St Api Running')
+    res.send('st api is running');
 });
 
-app.get('/All-courses', (req, res) => {
-    res.send(courses)
+app.get('/news-categories', (req, res) => {
+    res.send(catedories);
 })
-
 app.listen(port, () => {
-    console.log('St Course Sarver running on port', port);
+    console.log('st coourse port', port);
 })
