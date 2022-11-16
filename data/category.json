@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "name": "web development"
+        "name": "Javascript"
     },
     {
         "id": "02",
@@ -9,19 +9,19 @@
     },
     {
         "id": "03",
-        "name": "Javascript"
+        "name": "Python"
     },
     {
         "id": "04",
-        "name": "Php"
+        "name": "Html"
     },
     {
         "id": "05",
-        "name": "Html Css3"
+        "name": "Css"
     },
     {
         "id": "06",
-        "name": "faq"
+        "name": "React js"
     },
     {
         "id": "07",
